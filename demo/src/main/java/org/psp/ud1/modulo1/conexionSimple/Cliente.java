@@ -1,4 +1,4 @@
-package org.psp.ud1.conexionSimple;
+package org.psp.ud1.modulo1.conexionSimple;
 
 
 import java.net.Socket;

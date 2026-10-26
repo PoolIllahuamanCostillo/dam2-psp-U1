@@ -1,4 +1,4 @@
-package org.psp.ud1.serverConversorMayus;
+package org.psp.ud1.modulo2.serverConversorMayus;
 
 import java.io.BufferedReader;
 import java.io.IOException;

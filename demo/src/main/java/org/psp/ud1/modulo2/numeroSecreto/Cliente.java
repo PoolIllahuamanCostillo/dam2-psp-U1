@@ -1,4 +1,4 @@
-package org.psp.ud1.numeroSecreto;
+package org.psp.ud1.modulo2.numeroSecreto;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

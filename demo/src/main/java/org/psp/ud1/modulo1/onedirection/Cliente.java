@@ -1,4 +1,4 @@
-package org.psp.ud1.onedirection;
+package org.psp.ud1.modulo1.onedirection;
 
 import java.io.PrintWriter;
 import java.net.Socket;

@@ -1,8 +1,7 @@
-package org.psp.ud1.bidireccional;
+package org.psp.ud1.modulo1.onedirection;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -22,21 +21,12 @@ public class Servidor {
 
             System.out.println("CLiente conectado");
 
-            // 3. Crear canal para RECIBIR datos del cliente
+            // 3. Crear canal para RECIBIR datos
             BufferedReader entrada = new BufferedReader(
                     new InputStreamReader(
                             cliente.getInputStream()
                     )
             );
-            // -----------------------------------------------------------
-            // SE AGREGA UN NUEVO CANAL QUE SE
-            // ENVIARA LOS DATOS AL CLIENTE
-            PrintWriter salida = new PrintWriter(
-                    cliente.getOutputStream(),
-                    true
-            );
-
-            // ----------------------------------------------------------
 
             // 4. Leer el mensaje enviado por el cliente
             String mensaje = entrada.readLine();
@@ -44,12 +34,8 @@ public class Servidor {
             // 5. Mostrar el mensaje
             System.out.println("Mensaje recibido: " + mensaje);
 
-            // Enviar la respuesta al cliente:
-            salida.println("Hola cliente, mensaje");
-
             // 6. Cerrar la conexión
             cliente.close();
-            servidor.close();
 
 
         } catch (Exception e){

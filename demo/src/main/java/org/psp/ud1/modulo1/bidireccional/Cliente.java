@@ -1,4 +1,4 @@
-package org.psp.ud1.bidireccional;
+package org.psp.ud1.modulo1.bidireccional;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

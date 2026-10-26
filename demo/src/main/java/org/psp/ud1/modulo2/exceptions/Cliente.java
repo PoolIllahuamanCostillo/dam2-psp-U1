@@ -1,4 +1,4 @@
-package org.psp.ud1.exceptions;
+package org.psp.ud1.modulo2.exceptions;
 
 import java.io.BufferedReader;
 import java.io.IOException;

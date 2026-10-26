@@ -1,4 +1,4 @@
-package org.psp.ud1.usoDelWhile;
+package org.psp.ud1.modulo1.usoDelWhile;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
